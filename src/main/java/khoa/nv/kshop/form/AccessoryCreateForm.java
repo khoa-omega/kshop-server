@@ -14,7 +14,7 @@ import java.time.LocalDate;
 @Setter
 public class AccessoryCreateForm {
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 10)
     private String licensePlate;
 
     @NotNull

@@ -38,7 +38,7 @@ public class Car {
     @EqualsAndHashCode
     @Embeddable
     public static class PrimaryKey {
-        @Column(name = "license_plate", nullable = false)
+        @Column(name = "license_plate", length = 10, nullable = false)
         private String licensePlate;
 
         @Column(name = "repair_date", nullable = false)
