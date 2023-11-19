@@ -11,7 +11,7 @@ import org.hibernate.validator.constraints.Length;
 @Setter
 public class AccessoryUpdateForm {
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String name;
 
     @NotNull
@@ -19,10 +19,10 @@ public class AccessoryUpdateForm {
     private Long price;
 
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String statusDamaged;
 
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String repairStatus;
 }

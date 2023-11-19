@@ -24,16 +24,16 @@ public class Accessory {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name", nullable = false)
+    @Column(name = "name", length = 50, nullable = false)
     private String name;
 
     @Column(name = "price", nullable = false)
     private Long price;
 
-    @Column(name = "status_damaged", nullable = false)
+    @Column(name = "status_damaged", length = 50, nullable = false)
     private String statusDamaged;
 
-    @Column(name = "repair_status", nullable = false)
+    @Column(name = "repair_status", length = 50, nullable = false)
     private String repairStatus;
 
     @ManyToOne

@@ -21,14 +21,14 @@ public class CarUpdateForm {
     private LocalDate repairDate;
 
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String customerName;
 
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String catalog;
 
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String carMaker;
 }

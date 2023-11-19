@@ -22,7 +22,7 @@ public class AccessoryCreateForm {
     private LocalDate repairDate;
 
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String name;
 
     @NotNull
@@ -30,10 +30,10 @@ public class AccessoryCreateForm {
     private Long price;
 
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String statusDamaged;
 
     @NotBlank
-    @Length(max = 255)
+    @Length(max = 50)
     private String repairStatus;
 }

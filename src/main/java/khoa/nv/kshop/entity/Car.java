@@ -21,13 +21,13 @@ public class Car {
     @EmbeddedId
     private PrimaryKey pk;
 
-    @Column(name = "customer_name", nullable = false)
+    @Column(name = "customer_name", length = 50, nullable = false)
     private String customerName;
 
-    @Column(name = "catalog", nullable = false)
+    @Column(name = "catalog", length = 50, nullable = false)
     private String catalog;
 
-    @Column(name = "car_maker", nullable = false)
+    @Column(name = "car_maker", length = 50, nullable = false)
     private String carMaker;
 
     @OneToMany(mappedBy = "car")
