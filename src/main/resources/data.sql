@@ -1,7 +1,3 @@
-ALTER DATABASE sql12661191 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-ALTER TABLE car CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-ALTER TABLE accessory CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
 INSERT INTO car (license_plate, repair_date , customer_name           , catalog          , car_maker)
 VALUES          ('29V-653.66' , '2003-11-16', 'Nguyễn Ngọc Minh Trang', 'Bảo dưỡng lần 1', 'Honda'  ),
                 ('29H-158.40' , '2023-05-19', 'Lê Bảo Bình'           , 'Bảo dưỡng lần 8', 'VinFast'),
